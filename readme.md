@@ -13,4 +13,4 @@ event = {
                 description: 'Short description'
             };
 ```
-Example ![here](http://home.brantje.com/add-to-calendar/index.html)
+Example [here](http://home.brantje.com/add-to-calendar/index.html)
