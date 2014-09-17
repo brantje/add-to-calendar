@@ -119,12 +119,12 @@ var app = angular.module('addToCalendar', [])
                         return this.ics(event, 'icon-outlook', 'Outlook');
                     }
                 }
-                 scope.calendars = [
-                                        {name: 'Google Calendar', url: calendarGenerators.google(event)},
-                                        {name: 'Yahoo Calendar', url: calendarGenerators.yahoo(event)},
-                                        {name: 'Ical', url: calendarGenerators.ical(event)},
-                                        {name:'Outlook', url: calendarGenerators.outlook(event)}
-                                      ];
+                scope.calendars = [
+                                   {name: 'Google Calendar', url: calendarGenerators.google(event),iconClass: 'gcal'},
+                                   {name: 'Yahoo Calendar', url: calendarGenerators.yahoo(event), iconClass: 'yahoo'},
+                                   {name: 'Ical', url: calendarGenerators.ical(event),iconClass:'ical'},
+                                   {name:'Outlook', url: calendarGenerators.outlook(event),iconClass:'outlook'}
+                                 ];
             },
         }
     }]);
