@@ -8,7 +8,7 @@ Event is an object:
 event = {
                 start: '06/19/2014 14:42:30',
                 end: '06/23/2014 14:45:00',
-                title: 'Casten bij iCasting',
+                title: 'Example Event',
                 address:'Hoofdstraat 28, Zwolle, Nederland',
                 description: 'Short description'
             };
