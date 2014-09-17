@@ -5,7 +5,7 @@ app.directive('addtocalendar', ['$compile',function($compile) {
             scope: true,
             template: templateHTML,
             link: function(scope,element){
-              element.setAttribute('class','dropdown')	
+              element[0].setAttribute('class','dropdown')	
               scope.calendars = {};
               var MS_IN_MINUTES = 60 * 1000;
                 var event = scope.event;
