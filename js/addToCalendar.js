@@ -3,7 +3,7 @@ var app = angular.module('addToCalendar', []).directive('addtocalendar', ['$comp
             restrict: 'A',
             scope: true,
             replace: false,
-            templateUrl:'addToCalender.html',
+            templateUrl:'/template/partials/addToCalender.html',
             link: function(scope,element){
               scope.calendars = {};
               var MS_IN_MINUTES = 60 * 1000;
