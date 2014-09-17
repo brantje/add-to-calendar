@@ -1,4 +1,3 @@
-var app = angular.module('addToCalendar', [])
 app.directive('addtocalendar', ['$compile',function($compile) {
     	var templateHTML = '<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" ng-click="addToCalendar()">Add to calendar <span class="caret"></span></button><ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1"><li class="animate-repeat" ng-repeat="calendar in calendars"><a href="{{calendar.url}}" target="_blank"><i class="icon icon-{{calendar.iconClass}}"></i>{{calendar.name}}</a></li></ul>'
         return {
