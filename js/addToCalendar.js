@@ -4,6 +4,7 @@ app.directive('addtocalendar', ['$compile',function($compile) {
             restrict: 'A',
             scope: true,
             template: templateHTML,
+            replace: false,
             link: function(scope,element){
               element[0].setAttribute('class','dropdown')	
               scope.calendars = {};
