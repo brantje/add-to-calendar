@@ -1,0 +1,24 @@
+/* Put your css in here */
+
+.scrollBox {
+  max-height: 300px;
+  overflow-y: scroll;
+  padding: 20px;
+  background: green;
+}
+
+.scrollBox > div {
+  height: 800px;
+  background: red;
+}
+.calendarLink{
+  display: block;
+}
+.icon{
+ height: 16px;
+ width: 16px;
+ display: inline-block;
+}
+.icon-cancel{
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADLElEQVR42n1TS0hUURj+zp2Ho02N18c0WXcmNSlJnAaECotJgyCNyrKiRSFRi7KC6EEtCkKCHvsWFQxIQYsWJtWigiTHQLGpZix1yh5TNmU2Nx93HO+zc+81qU0//Gdx/vN/5/v+ByHUyiurqp0uNhcadNNPgv8YodGJMZ7vj/Y+I/lc+aqtp28+UySJaKoKlbr+QNO0WdchNRU0ZmIrGgFjs2n3Lu1aTVhvZdC/52oHZBE2ImJbaQq3XllBHLkzACapEpeM+fJbhMeXmXdWG6KhA0Hi0gH2XusgmgRVU1CUGcIHyQ17jtPQos0cdm0KltE4xlzllKEFYOzoCzUFybyCRRWHzrfGZEU2ExRTwt9l0Knr0hRZNq7NOIMbLU0VhGVZrqe7O5GZmqLZBBMZFe9+iGBzLCgpsFG9mgE1npbwa1KCh7XNVBJYV1PDGQB9sb5EJpPB0IiEc20jCHiz0J+cxprSbOxby+Li3WGE+3kE/W4crnUZ+YyFQVVVlQkw0D+QEEURj/omwNNfdq/KQ8+HNC60DaPtWBlkSv1mbxrJXyKaqx06UdisVvhX+DlSWFhYTAHe6wBGi6heIaPgTi+PnvgYrh1YAlGU0No9gU+jUzi6NgsMw8BisSAQCHDE6/WWR6PRN7IkGwCvPtNHrR9pMRWc3e7FhuVzMU3BQ2Eeg18ncXJ9NuY4nUgkPqO+vo4jZWVlgcjzSEShVWYIY/aNTk3H2zRaHvC431wEMSPgaewrkqlprPQRDA7EIUkSTpw6zhG/31/d1dUV1n+/+FjA/BwVTSvnIJqUcPD2TzxsLoQwnkJ8MA4hncbr2BssKPKA4xZix84dHKmtrd3S3t7epgN0Dkk4c5fHUrcVCV7G5uV2HKlxIZn8hidPOvD92wh8Pg6Li30G0fpNVEJjY+P+UCh0nVD6dK/Ap1V8TClwOwmKcq2GpHBnF15EXqKktBgejxtsXh7EaZHOQZAjDQ0N+y9funJdEARj2tTZJQJtnwQ+xWP4yzBy6bK6XPPgcDhgt2dBpjWo27TRR2g77Pn5+RWqohrl+2ePjbElhv8xzdwuwjAWMjr6I/Yb/aiDYKs+1hYAAAAASUVORK5CYII=);
+}
